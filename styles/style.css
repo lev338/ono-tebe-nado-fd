@@ -3,8 +3,8 @@ h1,
 h2,
 h3,
 .bet-button {
-    color: #fff;
     font-family: Raleway, sans-serif;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -12,7 +12,7 @@ h3,
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px ;
+    padding: 92px 50px 95px ;
 }
 
 .cover {
@@ -32,12 +32,13 @@ h3,
     display: grid;
     grid-template-columns: 334px 1fr;
     margin: 120px 24px 0;
+    padding-top: 35px;
 }
 
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 180px 0 82px;
+    margin: 180px 50px 82px;
 }
 
 .overlay {
@@ -82,9 +83,9 @@ h3,
 }
 
 .about__text {
+    font-family: Raleway, sans-serif;
     display: grid;
     row-gap: 24px;
-    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -243,9 +244,9 @@ h3,
 }
 
 .card__text {
+    font-family: Raleway, sans-serif;
     overflow: hidden;
     color: #fff;
-    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -254,8 +255,8 @@ h3,
 }
 
 .lots__look-more-link {
-    margin-left: 40px;
     font-family: Raleway, sans-serif;
+    margin-left: 40px;
     font-weight: 400;
     font-size: 20px;
 }
