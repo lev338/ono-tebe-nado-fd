@@ -158,6 +158,8 @@ h3,
     width: 148px;
     height: 105px;
     background-image: url("../images/logo-black.svg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .address {
