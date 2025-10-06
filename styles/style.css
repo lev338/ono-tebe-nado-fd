@@ -99,7 +99,7 @@ h3,
     bottom: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     width: 100%;
     padding: 0 50px 50px;
 }
@@ -124,7 +124,6 @@ h3,
     font-weight: 700;
     font-size: 100px;
     line-height: 115%;
-    letter-spacing: 30px;
     letter-spacing: 30%;
 }
 
@@ -157,9 +156,6 @@ h3,
 .header__logo-image {
     width: 148px;
     height: 105px;
-    background-image: url("../images/logo-black.svg");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .address {
@@ -261,7 +257,7 @@ h3,
     margin-left: 40px;
     font-family: Raleway, sans-serif;
     font-weight: 400;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 .footer__menu {
