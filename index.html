@@ -18,7 +18,7 @@
           <li><a href="#0" class="header__link">об аукционе</a></li>
         </ul>
       </nav>
-      <a href="#0" class="header__logo">
+      <a class="header__logo">
         <img src="images/logo-black.svg" alt="логотип" class="header__logo-image">
       </a>
       <address class="address header__address">
@@ -29,15 +29,17 @@
     </header>
     <main>
       <section class="cover">
-        <div class="overlay"></div>
+        <div class="cover__background-image">
+          <div class="overlay"></div>
+        </div>
         <h1 class="cover__title">
           <span class="aligned-text aligned-text_left">оно</span>
           <span class="aligned-text aligned-text_center">теб<span class="no-letter-spacing">е</span></span>
           <span class="aligned-text aligned-text_right">над<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
-          <button class="bet-button">сделать ставку</button>
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <button type="button" class="bet-button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -156,20 +158,24 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="#0" class="footer__social-link">
-            <div class="footer__social-icon footer__social-icon-youtube"></div>
+          <a href="#0" target="_blank" class="footer__social-link">
+            <div class="footer__social-icon">
+              <img src="images/yt.svg" alt="youtube компании">
+            </div>
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#0" class="footer__social-link">
-            <div class="footer__social-icon footer__social-icon-vk"></div>
+          <a href="#0" target="_blank" class="footer__social-link">
+            <div class="footer__social-icon">
+              <img src="images/vk.svg" alt="vk компании">
+            </div>
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#0" class="footer__social-link">
-            <div
-              class="footer__social-icon footer__social-icon-pinterest"
-            ></div>
+          <a href="#0" target="_blank" class="footer__social-link">
+            <div class="footer__social-icon">
+              <img src="images/pinterest.svg" alt="pinterest компании">
+            </div>
           </a>
         </li>
       </ul>

@@ -13,16 +13,14 @@
 }
 
 .cover {
+    z-index: 1;
     position: relative;
-    z-index: -2;
-    min-height: 757px;
     padding: 164px 50px 50px;
     color: #fff;
     text-transform: uppercase;
     background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
-
 }
 
 .lots {
@@ -38,7 +36,7 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 181px;
+    padding: 181px 0 82px;
 }
 
 .overlay {
@@ -57,7 +55,6 @@
 }
 
 .about__logo {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +66,6 @@
 }
 
 .about__logo-image {
-    position: absolute;
     width: 148px;
     height: 114px;
 }
@@ -142,13 +138,14 @@
     justify-content: center;
     align-items: center;
     width: 256px;
-    height: 51px;
-    border-color: #fff;
+    min-height: 51px;
+    border: 1px solid #fff;
     color: #fff;
     font-weight: 500;
     font-size: 22px;
     text-transform: uppercase;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .header__links-list {
@@ -213,7 +210,7 @@
 
 .card {
     width: 334px;
-    height: 596px;
+    min-height: 596px;
 }
 
 .card__content {
@@ -234,7 +231,7 @@
 .card_type_book,
 .card_type_picture {
     position: relative;
-    z-index: -2;
+    z-index: 1;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -262,11 +259,9 @@
 }
 
 .card__text {
-    overflow: hidden;
     color: #fff;
     font-weight: 400;
     font-size: 20px;
-    text-overflow: ellipsis;
 }
 
 .lots__look-more-link {
@@ -314,16 +309,4 @@
 .footer__social-icon {
     width: 48px;
     height: 48px;
-}
-
-.footer__social-icon-youtube {
-    background-image: url("../images/yt.svg");
-}
-
-.footer__social-icon-vk {
-    background-image: url("../images/vk.svg");
-}
-
-.footer__social-icon-pinterest {
-    background-image: url("../images/pinterest.svg");
 }
