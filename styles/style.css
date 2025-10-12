@@ -13,8 +13,8 @@
 }
 
 .cover {
-    z-index: 1;
     position: relative;
+    z-index: 1;
     padding: 164px 50px 50px;
     color: #fff;
     text-transform: uppercase;
